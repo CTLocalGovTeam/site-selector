@@ -937,6 +937,8 @@ define([
                     } else {
                         if (arrDwnloadDisplayFieldValue[selectedValue].GeoProcessingServiceURL) {
                             downloadWindow = window.open(dojoConfig.baseURL.toString() + "/downloadTemplate.htm", "_blank");
+                            //store configured msg in window object
+                            downloadWindow.downloadStartedMsg = sharedNls.errorMessages.downloadStartedMsg;
                             topic.publish("showProgressIndicator");
                             if (this.featureGraphics[this.workflowCount]) {
                                 this.map.setLevel(appGlobals.configData.ZoomLevel);

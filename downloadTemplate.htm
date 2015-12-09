@@ -16,13 +16,16 @@
             z-index: 9999;
             background: url('js/library/themes/images/loadingIndicator.gif') 50% 50% no-repeat;
         }
-             
+
     </style>
 </head>
 <body>
-    
     <div class="loading">
-    </div> <div id="reportLoadingMsg">
     </div>
+    <div id="reportLoadingMsg">
+    </div>
+    <script type="text/javascript">
+        document.getElementById("reportLoadingMsg").innerHTML = window.downloadStartedMsg;
+    </script>
 </body>
 </html>

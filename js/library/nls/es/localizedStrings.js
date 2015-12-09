@@ -66,6 +66,7 @@ define({
         bufferSliderValue: "@es@ Buffer slider should not be set to zero distance", // Shown when Buffer slider is set to zero distance.
         invalidInput: "@es@ Please provide valid input for range filters", // Shown when enter the invalid input.
         unableToSort: "@es@ Unable to sort", //Shown when the layer does not support the sorting feature.
-        portalUrlNotFound: "@es@ Portal URL cannot be empty" //Portal URL cannot be empty.
+        portalUrlNotFound: "@es@ Portal URL cannot be empty", //Portal URL cannot be empty.
+        downloadStartedMsg: "@es@ The download has started. Check the downloads location if it does not display in the browser."//Shown as text message when report starts downloading
     }
 });
